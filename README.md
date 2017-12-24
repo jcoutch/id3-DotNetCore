@@ -19,7 +19,7 @@ Also, .NET Core's binary serialization support is significantly different from t
 
 ## Getting Started
 
-Install the Nuget package via Package Management Console:
+Install the Nuget package via Package Manager Console:
 ```powershell
 Install-Package ID3.Net-DotNetCore
 ```
