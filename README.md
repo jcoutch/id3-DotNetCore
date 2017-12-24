@@ -6,7 +6,7 @@ ID3.NET is a set of libraries for reading, modifying and writing ID3 and Lyrics3
 
 This version of the core library currently supports .NET Core 1.1 and 2.0.
 
-*NOTE* - The code in this repo has not been thoroughly tested.  I essentially took the original source code, created new project files, fixed some dependencies, and packaged it up.  I did port the unit tests, but none of the test MP3 files were in the original developer's repo...so I can't run them at the moment.
+**NOTE** - The code in this repo has not been thoroughly tested.  I essentially took the original source code, created new project files, fixed some dependencies, and packaged it up.  I did port the unit tests, but none of the test MP3 files were in the original developer's repo...so I can't run them at the moment.
 
 ## Extension Support
 
