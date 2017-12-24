@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp1.1;netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp1.1;netcoreapp2.0;netstandard1.3;netstandard2.0</TargetFrameworks>
     <Version>0.4.0.0</Version>
     <FileVersion>0.4.0.0</FileVersion>
     <PackageId>ID3.Files-DotNetCore</PackageId>
@@ -15,6 +15,7 @@
       
       See the project site for documentation.
     </Description>
+    <PackageProjectUrl>https://github.com/jcoutch/id3-DotNetCore</PackageProjectUrl>
     <Authors>jeevan,jcoutch</Authors>
   </PropertyGroup>
 

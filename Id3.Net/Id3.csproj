@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp1.1;netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp1.1;netcoreapp2.0;netstandard1.3;netstandard2.0</TargetFrameworks>
     <AssemblyName>Id3</AssemblyName>
     <RootNamespace>Id3</RootNamespace>
     <Version>0.4.0.0</Version>
@@ -18,6 +18,7 @@
 
       See the project site for documentation.
     </Description>
+    <PackageProjectUrl>https://github.com/jcoutch/id3-DotNetCore</PackageProjectUrl>
     <Authors>jeevan,jcoutch</Authors>
   </PropertyGroup>
 
