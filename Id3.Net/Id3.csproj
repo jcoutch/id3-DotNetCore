@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp1.1;netcoreapp2.0</TargetFrameworks>
+    <AssemblyName>Id3</AssemblyName>
+    <RootNamespace>Id3</RootNamespace>
+    <Version>0.4.0.0</Version>
+    <FileVersion>0.4.0.0</FileVersion>
+    <PackageId>ID3.Net-DotNetCore</PackageId>
+    <Product>ID3.NET for .NET Core</Product>
+    <Description>
+      Port of ID3.NET to .NET Core.
+
+      ID3.NET is a set of libraries for reading, modifying and writing ID3 and Lyrics3 tags in MP3 audio files.
+
+      The core library is a portable class library compatible with the .NET Framework 4 and higher, Silverlight 4 and higher, Windows Phone 7.5 and .NET for Metro style apps. It contains the bulk of the code needed to read, modify and write ID3 tags.
+
+      Additional NuGet packages are available that contains non-portable libraries that provide additional platform-specific support.
+
+      See the project site for documentation.
+    </Description>
+    <Authors>jeevan,jcoutch</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Id3Messages.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Id3Messages.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Id3Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Id3Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Id3.Frames.Id3Frame" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frames\Id3Frame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Id3.Frames.TextFrameBase" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAEgAAAAAAAAQAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Frames\TextFrameBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Id3.Frames.TextFrame" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Frames\TextFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Id3.Frames.NumericFrame" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Frames\NumericFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Id3.Frames.DateTimeFrame" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Frames\DateTimeFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Id3.Frames.TextFrameBase&lt;TValue&gt;" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Frames\TextFrameBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Id3.Frames.ListTextFrame" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEgAAAAAAA=</HashCode>
+      <FileName>Frames\ListTextFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Id3.Frames.UnknownFrame" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAIAAEgAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frames\UnknownFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Id3.Frames.UrlLinkFrame" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAEgAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Frames\UrlLinkFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

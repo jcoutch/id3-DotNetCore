@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp1.1;netcoreapp2.0</TargetFrameworks>
+    <Version>0.4.0.0</Version>
+    <FileVersion>0.4.0.0</FileVersion>
+    <PackageId>ID3.Files-DotNetCore</PackageId>
+    <Product>ID3.NET File Extensions for .NET Core</Product>
+    <Description>
+      Port of ID3.NET to .NET Core.
+
+      ID3.NET is a set of libraries for reading, modifying and writing ID3 and Lyrics3 tags in MP3 audio files.
+      
+      The ID3.Files extensions provides file handling capabilities not available in the core library, along with utility classes such a batch file naming class called FileNamer.
+      
+      See the project site for documentation.
+    </Description>
+    <Authors>jeevan,jcoutch</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Id3.Net\Id3.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reflection" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
