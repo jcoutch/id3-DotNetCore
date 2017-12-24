@@ -17,7 +17,7 @@ Since the original library was written back in 2002, I assumed the metadata libr
 Also, .NET Core's binary serialization support is significantly different from the full framework, so I didn't port the Serialization extension.  When/If I have the time, I'll look at porting the code to use [MessagePack](https://github.com/neuecc/MessagePack-CSharp), but if anyone feels ambitious, I'll accept a pull request.  :-)
 
 ## Example
-```
+```csharp
 var musicFiles = Directory.GetFiles(@"C:\Music", "*.mp3");
 foreach (string musicFile in musicFiles)
 {
