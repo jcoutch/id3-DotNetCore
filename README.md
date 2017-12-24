@@ -1,6 +1,5 @@
-# ID3.NET for .NET Core
+# ID3.NET for .NET Core [![Build status](https://ci.appveyor.com/api/projects/status/4h6xnd2cvjpf93oe?svg=true)](https://ci.appveyor.com/project/jcoutch/id3-dotnetcore)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/4h6xnd2cvjpf93oe?svg=true)](https://ci.appveyor.com/project/jcoutch/id3-dotnetcore)
 
 ID3-DotNetCore is an effort to port the [ID3.NET library](https://id3.codeplex.com/) to .NET Core.
 
