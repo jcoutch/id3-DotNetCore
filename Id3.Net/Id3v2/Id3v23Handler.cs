@@ -198,7 +198,7 @@ namespace Id3.Id3v2
             mappings.Add<ComposersFrame>("TCOM", EncodeComposers, DecodeComposers);
             mappings.Add<ConductorFrame>("TPE3", EncodeConductor, DecodeConductor);
             mappings.Add<ContentGroupDescriptionFrame>("TIT1", EncodeContentGroupDescription, DecodeContentGroupDescription);
-            mappings.Add<CopyrightFrame>("TCOP", null, null);
+            mappings.Add<CopyrightFrame>("TCOP", EncodeCopyright, DecodeCopyright);
             mappings.Add<CopyrightUrlFrame>("WCOP", EncodeCopyrightUrl, DecodeCopyrightUrl);
             mappings.Add<CustomTextFrame>("TXXX", EncodeCustomText, DecodeCustomText);
             mappings.Add<CustomUrlLinkFrame>("WXXX", EncodeCustomUrlLink, DecodeCustomUrlLink);
@@ -208,16 +208,16 @@ namespace Id3.Id3v2
             //mappings.Add<EqualizationFrame>("EQUA", null, null);
             //mappings.Add<EventTimingCodesFrame>("ETCO", null, null);
             mappings.Add<FileOwnerFrame>("TOWN", EncodeFileOwner, DecodeFileOwner);
-            mappings.Add<FileTypeFrame>("TFLT", null, null);
+            mappings.Add<FileTypeFrame>("TFLT", EncodeFileType, DecodeFileType);
             //mappings.Add<GeneralEncapsulationObjectFrame>("GEOB", null, null);
             mappings.Add<GenreFrame>("TCON", EncodeGenre, DecodeGenre);
             //mappings.Add<GroupIdentificationRegistrationFrame>("GRID", null, null);
             //mappings.Add<InitialKeyFrame>("TKEY", null, null);
             //mappings.Add<InvolvedPeopleFrame>("IPLS", null, null);
             //mappings.Add<LanguagesFrame>("TLAN", null, null);
-            mappings.Add<LengthFrame>("TLEN", null, null);
+            mappings.Add<LengthFrame>("TLEN", EncodeLength, DecodeLength);
             //mappings.Add<LinkedInformationFrame>("LINK", null, null);
-            mappings.Add<LyricistsFrame>("TEXT", null, null);
+            mappings.Add<LyricistsFrame>("TEXT", EncodeLyricists, DecodeLyricists);
             mappings.Add<LyricsFrame>("USLT", EncodeLyrics, DecodeLyrics);
             //mappings.Add<MediaTypeFrame>("TMED", null, null);
             //mappings.Add<ModifiersFrame>("TPE4", null, null);
