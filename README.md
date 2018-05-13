@@ -31,15 +31,26 @@ Install-Package ID3.Files-DotNetCore
 
 ## Example
 ```csharp
-var musicFiles = Directory.GetFiles(@"C:\Music", "*.mp3");
-foreach (string musicFile in musicFiles)
+using System;
+
+namespace Example
 {
-    using (var mp3 = new Mp3File(musicFile))
+    class Program
     {
-        Id3Tag tag = mp3.GetTag(Id3TagFamily.FileStartTag);
-        Console.WriteLine("Title: {0}", tag.Title.Value);
-        Console.WriteLine("Artist: {0}", tag.Artists.Value);
-        Console.WriteLine("Album: {0}", tag.Album.Value);
+        public static void Main(string[] args)
+        {
+            var musicFiles = Directory.GetFiles(@"C:\Music", "*.mp3");
+            foreach (string musicFile in musicFiles)
+            {
+                using (var mp3 = new Mp3File(musicFile))
+                {
+                    Id3Tag tag = mp3.GetTag(Id3TagFamily.Version2x);
+                    Console.WriteLine("Title: {0}", tag.Title.Value);
+                    Console.WriteLine("Artist: {0}", tag.Artists.Value);
+                    Console.WriteLine("Album: {0}", tag.Album.Value);
+                }
+            }
+        }
     }
 }
 ```
